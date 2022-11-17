@@ -1,8 +1,6 @@
 {-# LANGUAGE OverloadedStrings #-}
 
-import Data.Text (Text)
-import Data.Text (isSuffixOf)
-import Data.Text (dropEnd)
+import Data.Text (Text, dropEnd, isSuffixOf)
 
 import qualified Data.Text
 import qualified Data.Text.IO
